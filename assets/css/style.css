@@ -1,0 +1,250 @@
+/* PC SCREEN */
+.main {
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+    color: #1B1F21;
+}
+
+/* chats */
+.usuario {
+    display: flex;
+    border-style: solid;
+    border-color: #E8EBE4;
+    border-width: thin;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.actividadusuario {
+    width: 40%;
+}
+
+.infousuario h1{
+    font-size: 16px;
+}
+
+.infousuario p{
+    font-size: 16px;
+    
+}
+
+.infousuario {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+}
+
+.infousuario img {
+    width: 30%;
+    height: 80%;
+    border-radius: 50%;  
+}
+
+.iconos {
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #BEC1BB;
+}
+
+#punico {
+    color: #BEC1BB;
+    font-size: 12px;
+}
+/*************************/
+
+/* Botón nuevo Chat */
+.botonnuevochat {
+    display: flex;
+    border-style: solid;
+    border-width: thin;
+    border-color: #E8EBE4;
+    width: 100%;
+    justify-content: center;
+    padding: 10% 0 10% 0;
+}
+
+.botonnuevochat :hover {
+    background-color: #CDC3E6;
+    color: white;
+}
+
+.botonnuevochat :focus {
+    background-color: #BEC1BB;
+}
+
+button {
+    border: none;
+    background-color: #A491D2;
+    color: #E8EBE4;
+    padding: 0% 10%;
+}
+/*************************/
+
+/* Netwrorking */
+.newchat {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    border-width: thin;
+    border-color: #E8EBE4;
+    background-color: #E8EBE4;
+    width: 70%;
+}
+
+.newchat img{
+    width: 300px;
+}
+
+.titlenew {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 3%;
+}
+
+.titlenew h1 {
+    margin: auto;
+}
+
+.titlenew p {
+    margin: auto;
+}
+
+/*************************/
+
+/* MEDIA QUERY FOR PHONES */
+
+@media only screen and (min-width: 250px) and (max-width: 420px){
+    .main {
+        display: flex;
+        font-family: 'Open Sans', sans-serif;
+        color: #1B1F21;
+    }
+    /* chats */
+    .usuario {
+        display: flex;
+        border-style: solid;
+        border-color: #E8EBE4;
+        border-width: thin;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        padding: 10% 0 10% 0;
+    }
+
+    .actividadusuario {
+        display: flex;
+        flex-direction: column;
+       align-items: center;
+        width: 100%;
+    }
+
+    .infousuario h1{
+        font-size: 100%;
+        margin: 0 0 10% 0;
+    }
+
+    .infousuario p{
+        font-size: 100%;
+        margin: 0 0 10% 0;
+    }
+
+    .infousuario {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .infousuario img {
+        width: 40%;
+        height: 80%;
+        border-radius: 50%;  
+    }
+
+    .iconos {
+        width: 50%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        color: #BEC1BB;
+    }
+
+    #punico {
+        color: #BEC1BB;
+        font-size: 12px;
+    }
+    /**********************/
+
+    /* Botón */
+    .botonnuevochat {
+        display: flex;
+        border-style: solid;
+        border-width: thin;
+        border-color: #E8EBE4;
+        width: 100%;
+        justify-content: center;
+        padding: 10% 0 10% 0;
+    }
+
+    .botonnuevochat :hover {
+        background-color: #CDC3E6;
+        color: white;
+    }
+
+    .botonnuevochat :focus {
+        background-color: #BEC1BB;
+    }
+
+    button {
+        font-size: 50%;
+        border: none;
+        background-color: #A491D2;
+        color: #E8EBE4;
+        padding: 0% 10%;
+        width: 60%;
+    }
+    /*************************/
+
+    .newchat {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-style: solid;
+        border-width: thin;
+        border-color: #E8EBE4;
+        background-color: #E8EBE4;
+        width: 70%;
+    }
+
+    .newchat img{
+        width: 50%;
+    }
+
+    .titlenew {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 3%;
+    }
+
+    .titlenew h1 {
+        font-size: 70%;
+        margin: auto;
+    }
+
+    .titlenew p {
+        font-size: 70%;
+        text-align: center;
+        margin: auto;
+    }
+    /*************************/
+
+}
+/*****************************/
